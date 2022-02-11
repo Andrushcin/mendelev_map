@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>interactive_mendeleev</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header class="menu">
+		<h1>Интерактивная карта РХТУ им. Д.И. Менделеева</h1>
+		<ul>
+			<li><a class="etag" href="">1 этаж</a></li>
+			<li><a class="etag" href="">2 этаж</a></li>
+			<li><a class="etag" href="">3 этаж</a></li>
+			<li><a class="etag" href="#">4 этаж</a></li>
+			<li><a class="etag" href="">5 этаж</a></li>
+		</ul>
+			
+	</header>
+	
+	<main>
+		<div class="card">
+			<img src="img/1etag.png" usemap="#mendeleev_map" width="1046" height="800">
+			<map name="mendeleev_map">
+  				<area shape="rect" class="rect" coords="356,222,412,250" href="#lest_gard">
+  				<area shape="rect" coords="637,222,693,250" href="#lest_gard_2">
+
+  				<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  				<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+			</map>
+
+			
+			<!--Кликабельные значки-->
+			<div>
+				<a href="#b_main"><div id="r_bankom">&#127975;</div></a>
+				<a href="#" id="b_main"><div id="bank" class="text">Банкоматы:<br>Сбербанк и Газпромбанк</div></a>
+				<a href="#i_main"><div id="r_input">&#129095;</div></a>
+				<a href="#" id="i_main"><div id="input" class="text">Главный вход</div></a>
+				<a href="#cib_main"><div id="r_cib">166</div></a>
+				<a href="#" id="cib_main"><div id="cib" class="text">Лаборатория кинетики</div></a>
+				<a href="#mend_main"><div id="r_mend"><img src="img/mend.jpg" width="55" height="76"></div></a>
+				<a href="#" id="mend_main"><div id="mend" class="text">Памятник Д.И. Менделееву<br><img src="img/pmend.jpg" width="246" height="374"></div></a>
+				<a href="#pr_main"><div id="r_pr">ПАХТ</div></a>
+				<a href="#" id="pr_main"><div id="pr" class="text">Лаборатории кафедры ПАХТ</div></a>
+				<a href="#med_main"><div id="r_med">&#128934;</div></a>
+				<a href="#" id="med_main"><div id="med" class="text">Медицинский кабинет доврачебной помощи</div></a>
+				<a href="#ttos_main"><div id="r_ttos">ТТОС-ХК</div></a>
+				<a href="#" id="ttos_main"><div id="ttos" class="text">Кафедра технологии тонкого органического синтеза и химии красителей</div></a>
+			</div>
+			<!--Лестницы-->
+			<div>
+				<a href="#" id="lest_gard"><div id="l_gard" class="text"><div class="strl">&#8598;</div>Лестница вниз в гардероб</div></a>
+				<a href="#" id="lest_gard_2"><div id="l_gard_2" class="text"><div class="strl">&#8598;</div>Лестница вниз в гардероб</div></a>
+			</div>
+
+		</div>
+	</main>
+</body>
+</html>
