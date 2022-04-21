@@ -16,37 +16,13 @@ closeSearch.onclick = function() {
 // General
 var hash = window.location.hash;
 
-var modal = document.getElementsByClassName("modal")[0];
-
-var info = document.getElementsByClassName("info")[0];
-
-window.onclick = function(event) {
-    if (event.target == windowInput) {
-        windowInput.style.display = "none";
+window.onclick = function() {
+  for (let i = 0; i < 20; i++) {
+    var modal = document.getElementsByClassName("modal")[i];
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
-    if (event.target == windowBank) {
-        windowBank.style.display = "none";
-        locBank.style.display = "none";
-    }
-    if (event.target == windowCin) {
-        windowCin.style.display = "none";
-    }
-    if (event.target == windowPr) {
-        windowPr.style.display = "none";
-        locPr.style.display = "none";
-    }
-    if (event.target == windowPmend) {
-        windowPmend.style.display = "none";
-    }
-    if (event.target == windowMed) {
-        windowMed.style.display = "none";
-    }
-    if (event.target == windowTtos) {
-        windowTtos.style.display = "none";
-    }
-    if (event.target == windowLestGard) {
-        windowLestGard.style.display = "none";
-    }
+  }
 }
 
 //Bankomat
