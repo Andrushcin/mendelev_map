@@ -23,10 +23,10 @@ var info = document.getElementsByClassName("info")[0];
 window.onclick = function(event) {
     if (event.target == windowInput) {
         windowInput.style.display = "none";
-        locInput.style.display = "none";
     }
     if (event.target == windowBank) {
         windowBank.style.display = "none";
+        locBank.style.display = "none";
     }
     if (event.target == windowCin) {
         windowCin.style.display = "none";
