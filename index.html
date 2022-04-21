@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>interactive_mendeleev</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+	<header class="menu">
+		<div class="header">
+			<h1>Интерактивная карта РХТУ им. Д.И. Менделеева</h1>
+			<div id="icon_search"><img src="img/search.svg" width="30" height="30"></div>
+		</div>
+		<form id="search">
+			<div class="close_search"></div>
+			<input type="text" name="search" placeholder="Введите, что хотите найти">
+			<button class="icon_search"><img src="img/search.svg" width="20" height="20"></button>
+		</form>
+
+		<ul>
+			<li><a class="etag this_etag" href="#">1 этаж</a></li>
+			<li><a class="etag" href="">2 этаж</a></li>
+			<li><a class="etag" href="">3 этаж</a></li>
+			<li><a class="etag" href="">4 этаж</a></li>
+			<li><a class="etag" href="">5 этаж</a></li>
+		</ul>
+			
+	</header>
+	
+	<main>
+		<div class="card">
+			<img src="img/1etag.png" usemap="#mendeleev_map" width="1046" height="800">
+			
+			<!--Кликабельные значки-->
+			<div>
+				<!--Банкоматы-->
+				<button id="but_bank" class="icon">
+				</button>
+				<div id="bank" class="modal">
+					<div id="info_bank" class="info">
+						<div class="close_bank close"></div>
+						<div>Банкоматы:<br>Сбербанк и Газпромбанк</div> 
+					</div>
+				</div>
+				<div class="loc" id="loc_bank"></div>
+
+				<!--Вход-->
+				<button id="but_input" class="icon"></button>
+				<div id="input" class="modal">
+					<div id="info_input" class="info">
+						<div class="close_input close"></div>
+						<div>Главный вход</div> 
+					</div>
+				</div>
+
+				<!--Лаб. кинетики-->
+				<button id="but_cin" class="icon text_icon">
+					166
+				</button>
+				<div id="cin" class="modal">
+					<div id="info_cin" class="info">
+						<div class="close_cin close"></div>
+						<div>Лаборатория кинетики</div> 
+					</div>
+				</div>
+
+				<!--ПАХТ-->
+				<button id="but_pr" class="icon text_icon">
+					ПАХТ
+				</button>
+				<div id="pr" class="modal">
+					<div id="info_pr" class="info">
+						<div class="close_pr close"></div>
+						<div>Лаборатории кафедры ПАХТ</div> 
+					</div>
+				</div>
+				<div class="loc" id="loc_pr"></div>
+
+				<!--Памятник Д.И. Менделееву-->
+				<button id="but_pmend" class="icon"></button>
+				<div id="pmend" class="modal">
+					<div id="info_pmend" class="info">
+						<div class="close_pmend close"></div>
+						<div>Памятник Д.И. Менделееву<br><img src="img/pmend.jpg" width="246" height="374"></div> 
+					</div>
+				</div>
+				
+				<!--Медицинский кабинет-->
+				<button id="but_med" class="icon"></button>
+				<div id="med" class="modal">
+					<div id="info_med" class="info">
+						<div class="close_med close"></div>
+						<div>Медицинский кабинет доврачебной помощи</div> 
+					</div>
+				</div>
+
+				<!--ТТОС-ХК-->
+				<button id="but_ttos" class="icon text_icon">
+					ТТОС-ХК
+				</button>
+				<div id="ttos" class="modal">
+					<div id="info_ttos" class="info">
+						<div class="close_ttos close"></div>
+						<div>Кафедра технологии тонкого органического синтеза и химии красителей</div> 
+					</div>
+				</div>
+			</div>
+
+			<!--Лестницы-->
+			<div>
+				<!--Лестница вниз в гардероб-->
+				<button id="but_lest_gard" class="icon"></button>
+				<div id="lest_gard" class="modal">
+					<div id="info_lest_gard" class="info">
+						<div class="close_lest_gard close"></div>
+						<div>Лестница вниз в гардероб</div> 
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</main>
+	<footer>
+		<div class="general_sait">
+			<a href="https://www.muctr.ru/" class="official">Перейти на официальный сайт РХТУ имени Д.И. Менделеева</a>
+		</div>
+		<div class="connect">Связаться с нами:</div>
+		<div class="contact">
+				<a href=""><div class="icon_facebook"></div></a>
+				<a href=""><div class="icon_vk"></div></a>
+		</div>
+		<div class="copyright">	
+			<p>	&#169; Copyright @2022, All rights reserved.</p>
+		</div>
+	</footer>
+</body>
+<script src="js/script.js"></script>
+
+</html>
