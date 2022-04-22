@@ -197,6 +197,9 @@ a:hover {
     animation-name: animate;
     animation-duration: 1s;
 }
+.info img {
+    margin-top: 20px;
+}
 
 @keyframes animate {
     from {opacity:0}
@@ -310,7 +313,7 @@ a:hover {
     height: 84px;
 }
 #info_pmend {
-
+    height: 430px;
     left: 550px;
     top: 300px;
 }
