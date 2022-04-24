@@ -247,7 +247,7 @@ a:hover {
     height: 40px;
     position: absolute;
     text-align: center;
-    display: block;
+    display: none;
     border-radius: 15px;
     border: none;
     background-color: white;
