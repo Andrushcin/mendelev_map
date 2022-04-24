@@ -196,6 +196,7 @@ a:hover {
     position: absolute;
     animation-name: animate;
     animation-duration: 1s;
+    z-index: 1000;
 }
 .info img {
     margin-top: 20px;
@@ -284,6 +285,7 @@ a:hover {
     height: 450px;
 }
 
+
 /**Банкоматы**/
 #but_bank {
     background-image: url(../img/atm.svg);
@@ -341,7 +343,6 @@ a:hover {
 }
 
 /** 126 **/
-
 #but_126 {
     font-size: 20px;
     width: 164px;
@@ -355,8 +356,55 @@ a:hover {
 #info_126 {
     left: 775px;
     top: 655px;
+    height: 450px;
 }
 
+/** 140 **/
+#but_140 {
+    font-size: 20px;
+    width: 164px;
+    height: 63px;
+    left: 270px;
+    top: 605px;
+}
+#but_140:hover {
+    font-size: 22px;
+}
+#info_140 {
+    left: 300px;
+    top: 655px;
+}
+
+/** MAZ **/
+#but_maz {
+    width: 164px;
+    height: 63px;
+    left: 440px;
+    top: 500px;
+}
+#but_maz:hover {
+    font-size: 35px;
+}
+#info_maz {
+    left: 300px;
+    top: 655px;
+}
+
+/** 128 **/
+#but_128 {
+    font-size: 20px;
+    width: 164px;
+    height: 63px;
+    left: 590px;
+    top: 605px;
+}
+#but_128:hover {
+    font-size: 22px;
+}
+#info_128 {
+    left: 300px;
+    top: 655px;
+}
 /** ПАХТ **/
 
 #but_pr {

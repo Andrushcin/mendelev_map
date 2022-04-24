@@ -168,6 +168,50 @@ close126.onclick = function() {
   window126.style.display = "none";
 }
 
+//140
+var window140 = document.getElementById('k140');
+
+var but140 = document.getElementById("but_140");
+
+var close140 = document.getElementsByClassName("close_140")[0];
+
+but140.onclick = function() {
+  window140.style.display = "block";
+}
+
+close140.onclick = function() {
+  window140.style.display = "none";
+}
+
+//MAZ
+var windowMaz = document.getElementById('maz');
+
+var butMaz = document.getElementById("but_maz");
+
+var closeMaz = document.getElementsByClassName("close_maz")[0];
+
+butMaz.onclick = function() {
+  windowMaz.style.display = "block";
+}
+
+closeMaz.onclick = function() {
+  windowMaz.style.display = "none";
+}
+
+//128
+var window128 = document.getElementById('k128');
+
+var but128 = document.getElementById("but_128");
+
+var close128 = document.getElementsByClassName("close_128")[0];
+
+but128.onclick = function() {
+  window128.style.display = "block";
+}
+
+close128.onclick = function() {
+  window128.style.display = "none";
+}
 //Processes
 
 var windowPr = document.getElementById('pr');
