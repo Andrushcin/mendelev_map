@@ -174,8 +174,8 @@ a:hover {
 .icon {
     position: absolute;
     border: none;
-    background: none;
     text-align: center;
+    background: none;
 }
 .text_icon {
     color: #0670b8;
@@ -220,7 +220,69 @@ a:hover {
 .close:hover {
     background-color: red;
 }
+/**Photomark**/
+.but_panorama {
+    position: absolute;
+    text-align: center;
+    left: 7px;
+    top: 7px;
+    width: 100px;
+    height: 40px;
+    background: #0670b8;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
 
+.but_panorama:hover {
+    width: 110px;
+    height: 44px;
+}
+
+.mark {
+    background-image: url(../img/location.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+/**460_240**/
+#mark_460_240 {
+    left: 460px;
+    top: 240px;
+}
+#info_460_240 {
+    left: 480px;
+    top: 350px;
+    height: 450px;
+}
+/**230_650**/
+#mark_230_650 {
+    left: 230px;
+    top: 650px;
+}
+#info_230_650 {
+    left: 290px;
+    top: 400px;
+    height: 450px;
+}
+
+/**804_162**/
+#mark_804_162 {
+    left: 804px;
+    top: 162px;
+}
+#info_804_162 {
+    left: 750px;
+    top: 180px;
+    height: 450px;
+}
 
 /**Банкоматы**/
 #but_bank {
@@ -276,6 +338,23 @@ a:hover {
 #info_cin {
     left: 220px;
     top: 75px;
+}
+
+/** 126 **/
+
+#but_126 {
+    font-size: 20px;
+    width: 164px;
+    height: 63px;
+    left: 678px;
+    top: 605px;
+}
+#but_126:hover {
+    font-size: 22px;
+}
+#info_126 {
+    left: 775px;
+    top: 655px;
 }
 
 /** ПАХТ **/

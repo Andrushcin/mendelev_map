@@ -25,6 +25,80 @@ window.onclick = function() {
   }
 }
 
+// Panorama
+var butPanorama = document.getElementsByClassName("but_panorama")[0];
+
+var photomarks = document.getElementsByClassName("mark");
+
+butPanorama.addEventListener("click", function() {
+  for (let i = 0; i < 3; i++) {
+    var mark = photomarks[i]
+    if(mark.style.display == 'block')  mark.style.display = 'none';
+    else mark.style.display = 'block'
+  }
+});
+
+// Photomarks
+var window460_240 = document.getElementById('window_460_240');
+
+var mark460_240 = document.getElementById("mark_460_240");
+
+var close460_240 = document.getElementsByClassName("close_460_240")[0];
+
+var loc460_240 = document.getElementById("loc_460_240");
+
+mark460_240.onclick = function() {
+  window460_240.style.display = "block";
+}
+
+close460_240.onclick = function() {
+  window460_240.style.display = "none";
+}
+if (hash==='#loc460_240') {
+    window460_240.style.display = "block";
+    mark460_240.style.display = "block";
+} 
+
+var window230_650 = document.getElementById('window_230_650');
+
+var mark230_650 = document.getElementById("mark_230_650");
+
+var close230_650 = document.getElementsByClassName("close_230_650")[0];
+
+var loc230_650 = document.getElementById("loc_230_650");
+
+mark230_650.onclick = function() {
+  window230_650.style.display = "block";
+}
+
+close230_650.onclick = function() {
+  window230_650.style.display = "none";
+}
+if (hash==='#loc230_650') {
+    window230_650.style.display = "block";
+    mark230_650.style.display = "block";
+} 
+
+var window804_162 = document.getElementById('window_804_162');
+
+var mark804_162 = document.getElementById("mark_804_162");
+
+var close804_162 = document.getElementsByClassName("close_804_162")[0];
+
+var loc804_162 = document.getElementById("loc_804_162");
+
+mark804_162.onclick = function() {
+  window804_162.style.display = "block";
+}
+
+close804_162.onclick = function() {
+  window804_162.style.display = "none";
+}
+if (hash==='#loc804_162') {
+    window804_162.style.display = "block";
+    mark804_162.style.display = "block";
+} 
+
 //Bankomat
 var windowBank = document.getElementById('bank');
 
@@ -77,6 +151,21 @@ butCin.onclick = function() {
 
 closeCin.onclick = function() {
   windowCin.style.display = "none";
+}
+
+//126
+var window126 = document.getElementById('k126');
+
+var but126 = document.getElementById("but_126");
+
+var close126 = document.getElementsByClassName("close_126")[0];
+
+but126.onclick = function() {
+  window126.style.display = "block";
+}
+
+close126.onclick = function() {
+  window126.style.display = "none";
 }
 
 //Processes
